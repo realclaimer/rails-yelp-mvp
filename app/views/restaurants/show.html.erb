@@ -1,0 +1,7 @@
+<h1><%= @restaurant.name %></h1>
+<h2><%= @restaurant.address %></h2>
+<h3><%= @restaurant.category %></h3>
+
+<%= link_to "Reviews", restaurant_reviews_path(@restaurant) %>
+
+<%= render 'reviews/form' %>

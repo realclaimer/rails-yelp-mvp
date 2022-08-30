@@ -1,0 +1,6 @@
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name, placeholder: "Write the name." %>
+  <%= f.input :address, placeholder: "Write the address." %>
+  <%= f.input :category, placeholder: "Write the category." %>
+  <%= f.submit "Add" %>
+<% end %>
